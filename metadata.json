@@ -1,0 +1,6 @@
+{
+  "name": "Prashanth Kumar Arts",
+  "description": "Design & print studio app for Prashanth Kumar Arts at Bibipet, Kamareddy. Browse portfolio, order custom posters, wedding invitations, banners & thumbnails, track orders, pay via UPI, and manage admin workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

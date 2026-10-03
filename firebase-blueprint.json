@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "UserProfile": {
+      "collection": "users",
+      "fields": {
+        "userId": { "type": "string", "required": true },
+        "name": { "type": "string", "required": true },
+        "phone": { "type": "string", "required": true },
+        "email": { "type": "string", "required": true },
+        "address": { "type": "string", "required": false },
+        "role": { "type": "string", "required": false },
+        "createdAt": { "type": "timestamp", "required": true }
+      }
+    },
+    "Order": {
+      "collection": "users/{userId}/orders",
+      "fields": {
+        "orderId": { "type": "string", "required": true },
+        "userId": { "type": "string", "required": true },
+        "title": { "type": "string", "required": true },
+        "serviceCategory": { "type": "string", "required": true },
+        "specifications": { "type": "string", "required": true },
+        "dimensions": { "type": "string", "required": true },
+        "quantity": { "type": "number", "required": true },
+        "paperType": { "type": "string", "required": true },
+        "totalPrice": { "type": "number", "required": true },
+        "status": { "type": "string", "required": true },
+        "paymentStatus": { "type": "string", "required": true },
+        "upiUtr": { "type": "string", "required": false },
+        "adminNotes": { "type": "string", "required": false },
+        "createdAt": { "type": "timestamp", "required": true }
+      }
+    },
+    "GalleryItem": {
+      "collection": "gallery",
+      "fields": {
+        "title": { "type": "string", "required": true },
+        "category": { "type": "string", "required": true },
+        "description": { "type": "string", "required": true },
+        "startingPrice": { "type": "number", "required": true },
+        "dimensions": { "type": "string", "required": true },
+        "tag": { "type": "string", "required": true },
+        "rating": { "type": "number", "required": false },
+        "accentHex": { "type": "string", "required": false },
+        "createdAt": { "type": "timestamp", "required": true }
+      }
+    },
+    "Feedback": {
+      "collection": "feedback",
+      "fields": {
+        "userId": { "type": "string", "required": true },
+        "customerName": { "type": "string", "required": true },
+        "rating": { "type": "number", "required": true },
+        "serviceCategory": { "type": "string", "required": true },
+        "comment": { "type": "string", "required": true },
+        "customerLocation": { "type": "string", "required": false },
+        "createdAt": { "type": "timestamp", "required": true }
+      }
+    },
+    "Inquiry": {
+      "collection": "inquiries",
+      "fields": {
+        "userId": { "type": "string", "required": true },
+        "name": { "type": "string", "required": true },
+        "phone": { "type": "string", "required": true },
+        "email": { "type": "string", "required": true },
+        "serviceNeeded": { "type": "string", "required": true },
+        "message": { "type": "string", "required": true },
+        "isResolved": { "type": "boolean", "required": false },
+        "createdAt": { "type": "timestamp", "required": true }
+      }
+    }
+  }
+}

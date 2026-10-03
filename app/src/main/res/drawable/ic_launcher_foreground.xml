@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Palette Base -->
+        <path
+            android:fillColor="#FBBF24"
+            android:pathData="M54,26 C38,26 27,37 27,53 C27,69 38,78 49,78 C54,78 57,75 57,71 C57,69.5 56.5,68 55.5,67 C54.5,65.8 54,64.2 54,62.5 C54,58.9 56.9,56 60.5,56 L67,56 C74.7,56 81,49.7 81,42 C81,33.2 68.9,26 54,26 Z" />
+        
+        <!-- Palette thumb hole -->
+        <path
+            android:fillColor="#1E1B4B"
+            android:pathData="M37,56 A4,4 0 1,0 45,56 A4,4 0 1,0 37,56" />
+
+        <!-- CMYK Print Ink Dots -->
+        <!-- Cyan -->
+        <path
+            android:fillColor="#06B6D4"
+            android:pathData="M43,37 A3.5,3.5 0 1,0 50,37 A3.5,3.5 0 1,0 43,37" />
+        <!-- Magenta/Pink -->
+        <path
+            android:fillColor="#F43F5E"
+            android:pathData="M56,33 A3.5,3.5 0 1,0 63,33 A3.5,3.5 0 1,0 56,33" />
+        <!-- Royal Blue -->
+        <path
+            android:fillColor="#3B82F6"
+            android:pathData="M69,38 A3.5,3.5 0 1,0 76,38 A3.5,3.5 0 1,0 69,38" />
+        <!-- Amber Accent -->
+        <path
+            android:fillColor="#D97706"
+            android:pathData="M67,49 A3,3 0 1,0 73,49 A3,3 0 1,0 67,49" />
+
+        <!-- Modern Slanted Artist Brush / Stylus crossing under palette -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M78,66 L72,60 L59,73 L63,77 Z" />
+        <path
+            android:fillColor="#D97706"
+            android:pathData="M83,61 L80,58 L72,66 L75,69 Z" />
+        <path
+            android:fillColor="#F59E0B"
+            android:pathData="M58,74 L55,80 C54,82 56,84 58,83 L64,80 Z" />
+            
+        <!-- Small Print Sparkle Star -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M33,32 L34.5,27 L36,32 L41,33.5 L36,35 L34.5,40 L33,35 L28,33.5 Z" />
+    </group>
+</vector>
